@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=dvice-width,initinal-scale=1.0">
+<title>自己紹介作成サイト</title>
+<style type="text/css">
+body{
+    background-color:rgb(103, 182, 235);
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: rgb(45, 236, 45);
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.text-focus-in{
+    -webkit-animation: text-focus-in 2s cubic-bezier(0.550,0.085,0.680,0.530)both;
+   animation: text-focus-in 2s cubic-bezier(0.550,0.085,0.680,0.530)both;
+}
+@-webkit-keyframes text-focus-in{
+    0%{
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100%{
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+@keyframes text-focus-in{
+    0%{
+    -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+    100%{
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+    }
+}
+details[open] .content{
+   animation: fadeIn 2.0s ease-in-out;
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        transform: translateX(+100px);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+.content{
+    cursor: pointer;
+}
+.point{
+    cursor: pointer;
+    background-color: brown;
+}
+
+</style>
+</head>
+<body>   
+    <details><summary>
+            <font size=5>目次</font>
+    </summary>
+        <div class="content">
+            <li> 自己紹介文</li>
+            <li> 学歴</li>
+            <li>保有資格</li>
+            <li>スキル</li>
+            <li>経験したバイト・案件</li>
+        </div>
+    </details>
+    <h1 class="text-focus-in">信頼されるプログラマになる為に</h1>
+    <p style="text-align: left;">
+    <img  src="0000561575269251-web.jpeg"alt=大島 width="130" align="middle">
+    <font size=6>大島啓太</font> 　
+</p>
+<p>&nbsp;&nbsp;初めましてフォース株式会社の大島啓太です。私は21年卒の新入社員です。
+    　<br>&nbsp;&nbsp;大学では部活動の関係で体育大学に進学したのもあり、ITの知識としては未経験ですが大学生活で培った諦めない精神と何事にも全力で取り組む姿勢を生かして日々スキルアップ向上に努めて行きます。
+    　<br>&nbsp;&nbsp;私は手に職を持ちたいという気持ちでその中でも今後の社会情勢の中でITの知識を身につければ社会でも通用していけると思いIT・情報関係の会社を志望しました。今後は様々な案件に積極的に挑戦していき、将来的に皆から信頼をされる、名指しで任せてもらえるようなエンジニアを目指して行きたいです。
+    
+    </p>
+    <details><summary><p class="point"><font size="6.5"color="#ffd700">1,学歴</font></p></summary>
+<p>&nbsp;&nbsp;2017年3月　福井県坂井高等学校　情報システムコース　卒業
+   <br> &nbsp;&nbsp;2017年4月　日本体育大学　体育学部　体育学科　入学
+    <br>&nbsp;&nbsp;2021年3月　日本体育大学　体育学部　体育学科　卒業
+    <br>&nbsp;&nbsp;2021年4月　株式会社フォース　入社
+    </p></details>
+    <details><summary> <p class="point"><font size="6.5"color="#ffd700">2,保有資格</font></p></summary>
+    <p>&nbsp;&nbsp;・中学校・高等学校教論１種免許状（保健体育）
+        <br>&nbsp;&nbsp;・第二種電気工事士
+        <br>&nbsp;&nbsp;・DD第三種</p></details>
+        <details><summary><p class="point"><font size="6.5"color="#ffd700">3,スキル</font></p></summary>
+    <p><font size="5"color="blue">OS/環境</font>
+        　　<br>　MacOS・Windows・MySQL(研修中)　　　　
+                 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 
+       <br> <font size="5"color="blue">開発言語</font>　　　　　　　　<font size="5"color="blue">開発言語（研修中）</font>
+        　　<br>　C・HTML　　　　　　　　　　　　HTMLS・CSS3・JavaScript・JQuery・SQL</p></details>
+        <details><summary><p class="point"><font size="6.5"color="#ffd700">4,経験したバイト・案件</font></p></summary>
+    <p><font size="5">警備会社</font>
+       <br> &nbsp;&nbsp;交通整理や交通誘導、通行止めでの歩行者の誘導など
+        <br><font size="5">医療向けアプリダウンロード普及業務</font>
+        　　　　<br>&nbsp;&nbsp;PCR検査結果を通知するアプリの導入支援、受験者へのダウンロード説明</p></details>
+            
+</body>
+</html>
